@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BH OnChain - 20 de Maio | Belo Horizonte</title>
+    <meta
+      name="description"
+      content="Plataforma institucional BH OnChain para transparência pública digital, blockchain corporativo e integração Web 4.0 em Belo Horizonte."
+    />
+    <meta
+      name="keywords"
+      content="Transparência pública digital, Blockchain corporativo, Rastreabilidade de contratos, Integração Web 4.0, BH OnChain"
+    />
+    <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar" id="navbar">
+      <div class="container nav-container">
+        <a href="#hero" class="nav-logo">
+          <img src="assets/logo.svg" alt="BH OnChain" />
+        </a>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about" data-pt="Quem Somos" data-en="About">Quem Somos</a></li>
+          <li><a href="#venue" data-pt="O Local" data-en="Venue">O Local</a></li>
+          <li><a href="#themes" data-pt="Trilhas" data-en="Tracks">Trilhas</a></li>
+          <li>
+            <a href="#sponsors" data-pt="Ecossistema de Apoio" data-en="Support Ecosystem"
+              >Ecossistema de Apoio</a
+            >
+          </li>
+          <li><a href="#faq" data-pt="FAQ" data-en="FAQ">FAQ</a></li>
+        </ul>
+        <div class="nav-actions">
+          <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+            <span class="lang-pt active">PT</span>
+            <span class="lang-sep">/</span>
+            <span class="lang-en">EN</span>
+          </button>
+          <a
+            href="https://lu.ma/2md7imv5"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-tickets"
+            data-pt="Garanta seu lugar"
+            data-en="Get your spot"
+            >Garanta seu lugar</a
+          >
+          <a
+            href="https://t.me/bernardo_nery"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-sponsor"
+            data-pt="Cota Institucional"
+            data-en="Institutional Sponsorship"
+            >Cota Institucional</a
+          >
+          <button class="hamburger" id="hamburger" aria-label="Menu">
+            <span></span><span></span><span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero" id="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-particles" id="particles"></div>
+      <div class="container hero-content">
+        <img src="assets/logo.svg" alt="BH OnChain" class="hero-logo" />
+        <h1
+          class="hero-title"
+          data-pt-html="Transparência pública digital<br />começa em <span class=&#34;gradient-text&#34;>Belo Horizonte</span>"
+          data-en-html="Digital public transparency<br />starts in <span class=&#34;gradient-text&#34;>Belo Horizonte</span>"
+        >
+          Transparência pública digital<br />começa em
+          <span class="gradient-text">Belo Horizonte</span>
+        </h1>
+        <div class="hero-date">
+          <div class="hero-date-inner">
+            <span class="hero-date-day">20</span>
+            <div class="hero-date-details">
+              <span class="hero-date-month" data-pt="Maio 2026" data-en="May 2026"
+                >Maio 2026</span
+              >
+              <span class="hero-date-weekday" data-pt="Quarta-feira" data-en="Wednesday"
+                >Quarta-feira</span
+              >
+            </div>
+          </div>
+          <div class="hero-date-divider"></div>
+          <div class="hero-date-venue">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <div>
+              <span>Teatro Francisco Nunes</span>
+              <small
+                data-pt="Parque Municipal - Centro de BH"
+                data-en="Municipal Park - Downtown BH"
+                >Parque Municipal - Centro de BH</small
+              >
+            </div>
+          </div>
+        </div>
+        <p
+          class="hero-subtitle"
+          data-pt-html="Plataforma de autoridade em infraestrutura digital,<br />blockchain corporativo e tokenização da economia real."
+          data-en-html="Authority platform for digital infrastructure,<br />enterprise blockchain and real economy tokenization."
+        >
+          Plataforma de autoridade em infraestrutura digital,<br />blockchain corporativo e
+          tokenização da economia real.
+        </p>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <span class="stat-number" data-target="540">540</span>
+            <span class="stat-label" data-pt="Lugares" data-en="Seats">Lugares</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="25" data-suffix="+">25+</span>
+            <span class="stat-label" data-pt="Palestrantes" data-en="Speakers">Palestrantes</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="3">3</span>
+            <span class="stat-label" data-pt="Blocos" data-en="Blocks">Blocos</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" data-target="10" data-suffix="h+">10h+</span>
+            <span class="stat-label" data-pt="de Conteúdo" data-en="of Content">de Conteúdo</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-pt="Quem Somos" data-en="About">Quem Somos</span>
+          <h2
+            class="section-title"
+            data-pt-html="Um hub de governança digital<br /><span class=&#34;gradient-text&#34;>para o Brasil real</span>"
+            data-en-html="A digital governance hub<br /><span class=&#34;gradient-text&#34;>for Brazil's real economy</span>"
+          >
+            Um hub de governança digital<br /><span class="gradient-text">para o Brasil real</span>
+          </h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-card reveal">
+            <h3 data-pt="Mais que um evento" data-en="More than an event">Mais que um evento</h3>
+            <p
+              data-pt="O BH OnChain estrutura um ambiente institucional para acelerar transparência pública digital e decisões orientadas por evidência onchain."
+              data-en="BH OnChain structures an institutional environment to accelerate digital public transparency and decisions based on onchain evidence."
+            >
+              O BH OnChain estrutura um ambiente institucional para acelerar transparência pública
+              digital e decisões orientadas por evidência onchain.
+            </p>
+          </div>
+          <div class="about-card reveal">
+            <h3 data-pt="Setor Público" data-en="Public Sector">Setor Público</h3>
+            <p
+              data-pt="Trilhas para auditoria em tempo real, rastreabilidade de contratos e eficiência administrativa com suporte institucional local."
+              data-en="Tracks for real-time auditing, contract traceability and administrative efficiency with local institutional support."
+            >
+              Trilhas para auditoria em tempo real, rastreabilidade de contratos e eficiência
+              administrativa com suporte institucional local.
+            </p>
+          </div>
+          <div class="about-card reveal">
+            <h3 data-pt="Empresas" data-en="Companies">Empresas</h3>
+            <p
+              data-pt="Conteúdo executivo para blockchain corporativo, redução de atrito financeiro e integração entre sistemas legados e Web 4.0."
+              data-en="Executive content for enterprise blockchain, reduced financial friction and integration between legacy systems and Web 4.0."
+            >
+              Conteúdo executivo para blockchain corporativo, redução de atrito financeiro e
+              integração entre sistemas legados e Web 4.0.
+            </p>
+          </div>
+          <div class="about-card reveal">
+            <h3 data-pt="Realização" data-en="Organized by">Realização</h3>
+            <p
+              data-pt="Organização pela VEGA Crypto com foco em aplicações verificáveis da tokenização da economia real em escala municipal e corporativa."
+              data-en="Organized by VEGA Crypto with focus on verifiable applications of real economy tokenization at municipal and corporate scale."
+            >
+              Organização pela VEGA Crypto com foco em aplicações verificáveis da tokenização da
+              economia real em escala municipal e corporativa.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section venue" id="venue">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-pt="O Local" data-en="The Venue">O Local</span>
+          <h2
+            class="section-title"
+            data-pt-html="Teatro Francisco Nunes<br /><span class=&#34;gradient-text&#34;>Infraestrutura cívica no centro de BH</span>"
+            data-en-html="Teatro Francisco Nunes<br /><span class=&#34;gradient-text&#34;>Civic infrastructure in downtown BH</span>"
+          >
+            Teatro Francisco Nunes<br /><span class="gradient-text"
+              >Infraestrutura cívica no centro de BH</span
+            >
+          </h2>
+        </div>
+        <div class="venue-content reveal">
+          <div class="venue-info">
+            <p
+              class="venue-description"
+              data-pt="Com capacidade para 540 lugares, o teatro oferece contexto institucional para discussões de blockchain corporativo e modernização da gestão pública."
+              data-en="With capacity for 540 seats, the venue provides institutional context for enterprise blockchain and public management modernization discussions."
+            >
+              Com capacidade para 540 lugares, o teatro oferece contexto institucional para
+              discussões de blockchain corporativo e modernização da gestão pública.
+            </p>
+            <div class="venue-details">
+              <div class="venue-detail">
+                <strong data-pt="Endereço" data-en="Address">Endereço</strong>
+                <span
+                  data-pt="Av. Afonso Pena, s/n - Parque Municipal, Centro, BH"
+                  data-en="Av. Afonso Pena, s/n - Municipal Park, Downtown, BH"
+                  >Av. Afonso Pena, s/n - Parque Municipal, Centro, BH</span
+                >
+              </div>
+              <div class="venue-detail">
+                <strong data-pt="Data" data-en="Date">Data</strong>
+                <span data-pt="20 de Maio de 2026" data-en="May 20, 2026">20 de Maio de 2026</span>
+              </div>
+              <div class="venue-detail">
+                <strong data-pt="Capacidade" data-en="Capacity">Capacidade</strong>
+                <span data-pt="540 pessoas" data-en="540 people">540 pessoas</span>
+              </div>
+            </div>
+          </div>
+          <div class="venue-image-wrapper">
+            <img src="assets/venue.svg" alt="Teatro Francisco Nunes" class="venue-image" />
+            <a
+              href="https://maps.google.com/?q=Teatro+Francisco+Nunes+Belo+Horizonte"
+              target="_blank"
+              rel="noopener"
+              class="venue-maps-link"
+              >Ver no Google Maps</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bh-city">
+      <div class="container">
+        <div class="bh-content reveal">
+          <div class="bh-text">
+            <span class="section-tag" data-pt="A Cidade" data-en="The City">A Cidade</span>
+            <h2
+              class="section-title"
+              data-pt-html="Por que <span class=&#34;gradient-text&#34;>Belo Horizonte?</span>"
+              data-en-html="Why <span class=&#34;gradient-text&#34;>Belo Horizonte?</span>"
+            >
+              Por que <span class="gradient-text">Belo Horizonte?</span>
+            </h2>
+            <p
+              data-pt="Belo Horizonte conecta setor público, universidades e empresas com densidade econômica para liderar infraestrutura digital no Brasil."
+              data-en="Belo Horizonte connects public sector, universities and companies with economic density to lead digital infrastructure in Brazil."
+            >
+              Belo Horizonte conecta setor público, universidades e empresas com densidade
+              econômica para liderar infraestrutura digital no Brasil.
+            </p>
+          </div>
+          <div class="bh-highlights">
+            <div class="bh-highlight reveal">
+              <span class="bh-highlight-number">6M+</span>
+              <span
+                class="bh-highlight-label"
+                data-pt="Habitantes na região metropolitana"
+                data-en="Residents in the metropolitan area"
+                >Habitantes na região metropolitana</span
+              >
+            </div>
+            <div class="bh-highlight reveal">
+              <span class="bh-highlight-number" data-pt="3a" data-en="3rd">3a</span>
+              <span class="bh-highlight-label" data-pt="Maior economia do Brasil" data-en="Largest economy in Brazil"
+                >Maior economia do Brasil</span
+              >
+            </div>
+            <div class="bh-highlight reveal">
+              <span class="bh-highlight-number">50+</span>
+              <span
+                class="bh-highlight-label"
+                data-pt="Universidades e centros de pesquisa"
+                data-en="Universities and research centers"
+                >Universidades e centros de pesquisa</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section themes" id="themes">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-pt="Trilhas" data-en="Tracks">Trilhas</span>
+          <h2
+            class="section-title"
+            data-pt-html="O que será <span class=&#34;gradient-text&#34;>debatido</span>"
+            data-en-html="What will be <span class=&#34;gradient-text&#34;>discussed</span>"
+          >
+            O que será <span class="gradient-text">debatido</span>
+          </h2>
+          <p
+            class="section-desc"
+            data-pt="Discussões técnicas com aplicação imediata em gestão pública e operações corporativas."
+            data-en="Technical discussions with immediate application in public management and corporate operations."
+          >
+            Discussões técnicas com aplicação imediata em gestão pública e operações corporativas.
+          </p>
+        </div>
+        <div class="themes-grid themes-grid-3">
+          <div class="theme-card reveal">
+            <h3 data-pt="Rastreabilidade de Contratos" data-en="Contract Traceability">Rastreabilidade de Contratos</h3>
+            <p
+              data-pt="Do registro à execução, com trilhas verificáveis para auditoria em tempo real e mitigação de riscos."
+              data-en="From registration to execution, with verifiable trails for real-time auditing and risk mitigation."
+            >
+              Do registro à execução, com trilhas verificáveis para auditoria em tempo real e
+              mitigação de riscos.
+            </p>
+          </div>
+          <div class="theme-card reveal">
+            <h3 data-pt="Pagamentos Autônomos para IA" data-en="Autonomous Payments for AI">Pagamentos Autônomos para IA</h3>
+            <p
+              data-pt="Modelos de liquidação condicionada para fluxos máquina-a-máquina com governança institucional."
+              data-en="Conditional settlement models for machine-to-machine flows with institutional governance."
+            >
+              Modelos de liquidação condicionada para fluxos máquina-a-máquina com governança
+              institucional.
+            </p>
+          </div>
+          <div class="theme-card reveal">
+            <h3 data-pt="Integração Web 4.0" data-en="Web 4.0 Integration">Integração Web 4.0</h3>
+            <p
+              data-pt="Conexão entre sistemas legados, blockchain corporativo e IA para redução de atrito financeiro."
+              data-en="Connection between legacy systems, enterprise blockchain and AI to reduce financial friction."
+            >
+              Conexão entre sistemas legados, blockchain corporativo e IA para redução de atrito
+              financeiro.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section sponsors" id="sponsors">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-pt="Ecossistema de Apoio" data-en="Support Ecosystem"
+            >Ecossistema de Apoio</span
+          >
+          <h2
+            class="section-title"
+            data-pt-html="Mantenedores da <span class=&#34;gradient-text&#34;>Infraestrutura Digital</span>"
+            data-en-html="Maintainers of the <span class=&#34;gradient-text&#34;>Digital Infrastructure</span>"
+          >
+            Mantenedores da <span class="gradient-text">Infraestrutura Digital</span>
+          </h2>
+          <p
+            class="section-desc"
+            data-pt="Diretório de infraestrutura com organizações que sustentam a convergência entre Web 4.0, setor público e mercado financeiro."
+            data-en="Infrastructure directory with organizations that sustain convergence between Web 4.0, public sector and financial market."
+          >
+            Diretório de infraestrutura com organizações que sustentam a convergência entre Web
+            4.0, setor público e mercado financeiro.
+          </p>
+        </div>
+
+        <div class="sponsor-tier reveal">
+          <h3 class="tier-title" data-pt="Parceiros de Infraestrutura Crítica" data-en="Critical Infrastructure Partners">
+            Parceiros de Infraestrutura Crítica
+          </h3>
+          <div class="sponsor-logos tier-main sponsor-directory">
+            <div class="sponsor-directory-card">
+              <div class="sponsor-placeholder">Solana Foundation</div>
+              <p>Escalabilidade transacional para pagamentos autônomos e operações onchain de alta disponibilidade.</p>
+            </div>
+            <div class="sponsor-directory-card">
+              <div class="sponsor-placeholder">Chainlink</div>
+              <p>Oráculos para validação segura de eventos externos em fluxos financeiros e contratuais.</p>
+            </div>
+            <div class="sponsor-directory-card">
+              <div class="sponsor-placeholder">Polygon Labs</div>
+              <p>Interoperabilidade entre redes para integração enterprise com previsibilidade de custos.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sponsor-tier reveal">
+          <h3 class="tier-title" data-pt="Arquitetos de Soluções" data-en="Solution Architects">Arquitetos de Soluções</h3>
+          <div class="sponsor-logos tier-main sponsor-directory">
+            <div class="sponsor-directory-card">
+              <div class="sponsor-placeholder">VEGA Crypto</div>
+              <p>Estruturação estratégica para blockchain corporativo, tokenização e crescimento institucional.</p>
+            </div>
+            <div class="sponsor-directory-card">
+              <div class="sponsor-placeholder">ConsenSys</div>
+              <p>Stack de desenvolvimento para contratos inteligentes, auditoria e integração corporativa.</p>
+            </div>
+            <div class="sponsor-directory-card">
+              <div class="sponsor-placeholder">Fireblocks</div>
+              <p>Custódia e política de segurança para ativos digitais com governança de risco robusta.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sponsor-tier reveal">
+          <h3 class="tier-title" data-pt="Suporte Governamental e Setorial" data-en="Governmental and Sectoral Support">
+            Suporte Governamental e Setorial
+          </h3>
+          <div class="sponsor-logos tier-main sponsor-directory">
+            <div class="sponsor-directory-card">
+              <div class="sponsor-placeholder">Prefeitura de Belo Horizonte</div>
+              <p>Apoio institucional para adoção de infraestrutura digital na gestão pública municipal.</p>
+            </div>
+            <div class="sponsor-directory-card">
+              <div class="sponsor-placeholder">Entidades Financeiras</div>
+              <p>Conexão entre infraestrutura bancária e trilhas de ativos tokenizados no contexto regulado.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-banner">
+      <div class="container">
+        <h2
+          data-pt-html="Cota de Patrocínio Institucional:<br /><span class=&#34;gradient-text&#34;>Consultar Disponibilidade</span>"
+          data-en-html="Institutional Sponsorship Package:<br /><span class=&#34;gradient-text&#34;>Check Availability</span>"
+        >
+          Cota de Patrocínio Institucional:<br /><span class="gradient-text"
+            >Consultar Disponibilidade</span
+          >
+        </h2>
+        <p
+          data-pt="Posicione sua marca como pilar técnico do BH OnChain e conecte-se aos decisores do setor público e corporativo."
+          data-en="Position your brand as a technical pillar of BH OnChain and connect with public and corporate decision-makers."
+        >
+          Posicione sua marca como pilar técnico do BH OnChain e conecte-se aos decisores do setor
+          público e corporativo.
+        </p>
+        <a
+          href="https://t.me/bernardo_nery"
+          target="_blank"
+          rel="noopener"
+          class="btn btn-primary btn-lg"
+          data-pt="Consultar Disponibilidade"
+          data-en="Check Availability"
+          >Consultar Disponibilidade</a
+        >
+      </div>
+    </section>
+
+    <section class="section organizers">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-pt="Realização" data-en="Organized by">Realização</span>
+        </div>
+        <div class="organizers-grid">
+          <div class="organizer-card reveal">
+            <img src="assets/vega.svg" alt="Vega Crypto" class="organizer-logo" />
+            <h3>VEGA Crypto</h3>
+            <p
+              class="organizer-desc"
+              data-pt="Agência especializada em growth Web3 para Brasil e América Latina, com execução orientada por dados para projetos institucionais e corporativos."
+              data-en="Web3 growth agency for Brazil and Latin America, with data-driven execution for institutional and corporate projects."
+            >
+              Agência especializada em growth Web3 para Brasil e América Latina, com execução
+              orientada por dados para projetos institucionais e corporativos.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag" data-pt="FAQ" data-en="FAQ">FAQ</span>
+          <h2
+            class="section-title"
+            data-pt-html="Perguntas <span class=&#34;gradient-text&#34;>Frequentes</span>"
+            data-en-html="Frequently Asked <span class=&#34;gradient-text&#34;>Questions</span>"
+          >
+            Perguntas <span class="gradient-text">Frequentes</span>
+          </h2>
+        </div>
+        <div class="faq-list">
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              <span data-pt="Qual o foco do BH OnChain 2026?" data-en="What is BH OnChain 2026 focus?"
+                >Qual o foco do BH OnChain 2026?</span
+              >
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p
+                data-pt="Transparência pública digital, blockchain corporativo, rastreabilidade de contratos e integração Web 4.0 para tokenização da economia real."
+                data-en="Digital public transparency, enterprise blockchain, contract traceability and Web 4.0 integration for real economy tokenization."
+              >
+                Transparência pública digital, blockchain corporativo, rastreabilidade de contratos e
+                integração Web 4.0 para tokenização da economia real.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              <span data-pt="Como funciona o apoio institucional?" data-en="How does institutional support work?"
+                >Como funciona o apoio institucional?</span
+              >
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p
+                data-pt="A agenda conta com articulação da Prefeitura de Belo Horizonte e entidades setoriais para conectar tecnologia, regulação e implementação."
+                data-en="The agenda has support from Belo Horizonte City Hall and sector entities to connect technology, regulation and implementation."
+              >
+                A agenda conta com articulação da Prefeitura de Belo Horizonte e entidades setoriais
+                para conectar tecnologia, regulação e implementação.
+              </p>
+            </div>
+          </div>
+          <div class="faq-item reveal">
+            <button class="faq-question">
+              <span data-pt="Como solicitar cota de patrocínio institucional?" data-en="How to request institutional sponsorship?"
+                >Como solicitar cota de patrocínio institucional?</span
+              >
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
+            </button>
+            <div class="faq-answer">
+              <p
+                data-pt="Use o botão Consultar Disponibilidade para contato direto com a equipe responsável por parcerias institucionais."
+                data-en="Use the Check Availability button for direct contact with the institutional partnerships team."
+              >
+                Use o botão Consultar Disponibilidade para contato direto com a equipe responsável
+                por parcerias institucionais.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <img src="assets/logo.svg" alt="BH OnChain" class="footer-logo" />
+            <p
+              data-pt="Belo Horizonte como plataforma nacional de infraestrutura digital e governança onchain."
+              data-en="Belo Horizonte as a national platform for digital infrastructure and onchain governance."
+            >
+              Belo Horizonte como plataforma nacional de infraestrutura digital e governança onchain.
+            </p>
+          </div>
+          <div class="footer-links">
+            <h4 data-pt="Navegação" data-en="Navigation">Navegação</h4>
+            <ul>
+              <li><a href="#about" data-pt="Quem Somos" data-en="About">Quem Somos</a></li>
+              <li><a href="#venue" data-pt="O Local" data-en="Venue">O Local</a></li>
+              <li><a href="#themes" data-pt="Trilhas" data-en="Tracks">Trilhas</a></li>
+              <li><a href="#sponsors" data-pt="Ecossistema" data-en="Ecosystem">Ecossistema</a></li>
+              <li><a href="#faq" data-pt="FAQ" data-en="FAQ">FAQ</a></li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4 data-pt="Evento" data-en="Event">Evento</h4>
+            <ul>
+              <li data-pt="20 de Maio de 2026" data-en="May 20, 2026">20 de Maio de 2026</li>
+              <li>Teatro Francisco Nunes</li>
+              <li data-pt="Parque Municipal, Centro" data-en="Municipal Park, Downtown">Parque Municipal, Centro</li>
+              <li>Belo Horizonte - MG</li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <h4 data-pt="Redes" data-en="Social">Redes</h4>
+            <div class="social-links">
+              <a href="https://x.com/BHonchain" target="_blank" rel="noopener" aria-label="Twitter/X" class="social-link">X</a>
+              <a href="https://www.linkedin.com/company/bh-onchain" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-link">in</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p data-pt="© 2026 BH OnChain. Realizado por VEGA Crypto." data-en="© 2026 BH OnChain. Organized by VEGA Crypto.">
+            © 2026 BH OnChain. Realizado por VEGA Crypto.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
